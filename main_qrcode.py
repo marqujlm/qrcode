@@ -33,11 +33,11 @@ if option == 'Sim':
 
     arquivo = st.file_uploader("Escolha o arquivo")
 
-    url = st.text_input('Insira aqui o URL para o QRCode')
+    url = st.text_input('Insira aqui o URL para o QR CODE')
     # taking url or text
-    qr_code = st.text_input('Insira o nome do seu QR Code:')
+    qr_code = st.text_input('Insira o nome do seu QR CODE:')
 
-    color = st.color_picker('Escolha a cor do QR Code', '#000000')
+    color = st.color_picker('Escolha a cor do QR CODE', '#000000')
 
     if st.button('Gerar QR CODE'):
         Logo_link = arquivo
@@ -87,11 +87,11 @@ if option == 'Sim':
             )
         os.remove(f'{qr_code}.png')
 else:
-    url = st.text_input('Insira aqui o URL para o QRCode')
+    url = st.text_input('Insira aqui o URL para o QR CODE')
     # taking url or text
-    qr_code = st.text_input('Insira o nome do seu QR Code:')
+    qr_code = st.text_input('Insira o nome do seu QR CODE:')
 
-    color = st.color_picker('Escolha a cor do QR Code', '#000000')
+    color = st.color_picker('Escolha a cor do QR CODE', '#000000')
 
     if st.button('Gerar QR CODE'):
          # taking base width
