@@ -15,10 +15,8 @@ st.set_page_config(
     }
 )
 
-col1, col2, col3 = st.columns(3)
 
-with col2:
-    st.image('logo.png')
+st.image('logo.png')
 
 st.title('Gerador de QR CODE')
 st.subheader('code.py Programação')
